@@ -74,7 +74,7 @@
  * logLevel: the log level to be used by Socket.Io, defaults to '1'.
  */
 settings = {
-  scheme: 'http',
+  scheme: 'https',
   port: 8080,
   host: 'localhost',
   resource: '/socket.io',
