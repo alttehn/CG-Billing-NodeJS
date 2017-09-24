@@ -13,9 +13,9 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha",
-	"start": "node test\test.js"
+	"start": "forever start app.js"
   },
-  "main": "test.js",
+  "main": "app.js",
   "dependencies": {
     "express": "4.x",
     "request": "2.74.0",
