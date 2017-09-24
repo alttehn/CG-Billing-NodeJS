@@ -12,9 +12,10 @@
     "node": "4.2.x"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
 	"start": "node app.js"
   },
+  "main": "app.js",
   "dependencies": {
     "express": "4.x",
     "request": "2.74.0",
