@@ -80,8 +80,8 @@ settings = {
   resource: '/socket.io',
   serviceKey: 'tufyufghbuhoiuo',
   backend: {
-    port: 8080,
-    host: '172.30.145.51',
+    port: 443,
+    host: 'billing-dev.numberonegamer.com',
     scheme: 'https',
     basePath: '',
     messagePath: '/nodejs/message'
