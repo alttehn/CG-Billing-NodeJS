@@ -18,9 +18,9 @@ backendSettings = {
   "clientsCanWriteToChannels":false,
   "clientsCanWriteToClients":false,
   "extensions":"",
-  "debug":false,
+  "debug":true,
   "transports":["websocket",
   "polling"],
   "jsMinification":true,
   "jsEtag":true,
-  "logLevel":1};
+  "logLevel":5};
